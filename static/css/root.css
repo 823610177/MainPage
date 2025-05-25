@@ -152,7 +152,7 @@ html {
 */
 /*卡片模糊背景＋黑色透明卡片+白色svg**/
 html {
-   /*    --name: 主题1;*/
+    --name: 主题1;
     --main_bg_color: url(../img/background.jpg);
     --main_text_color: #eeeeee;
     --gradient: linear-gradient(120deg, #bd34fe, #e0321b 30%, #41d1ff 60%);
@@ -165,7 +165,7 @@ html {
     --footer_text_color: #ffffff;
     --left_tag_item: rgb(27 42 57 / 20%);
     --card_filter: 15px;
-    --back_filter: 0px;
-  /*  --back_filter_color: #00000010;*/
+    
+    --back_filter_color: #00000010;
      --fill:#ffffff;
 }
