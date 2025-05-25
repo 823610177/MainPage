@@ -58,21 +58,20 @@ a:focus {
 
 
 
-html[data-theme="Dark"] {
+html {
     
-    --main_text_color: #fff;
-    --gradient:linear-gradient(120deg, rgb(133, 62, 255), #f76cc6 30%, rgb(255, 255, 255) 60%);
+   --main_bg_color: url(../img/background.jpg);
+    --main_text_color: #eeeeee;
+    --gradient: linear-gradient(120deg, #bd34fe, #e0321b 30%, #41d1ff 60%);
     --purple_text_color: #747bff;
-    --text_bg_color: rgb(26, 4, 48);
-    --item_bg_color: rgb(19, 20, 24);
-    --item_hover_color: rgb(19, 23, 27);
-    --item_left_title_color: rgb(255, 255, 255);
-    --item_left_text_color: rgb(142, 142, 142);
-    --footer_text_color: #646464;
-    --left_tag_item: linear-gradient(50deg, #1f2327, #000000);
-    --card_filter: 0px;
-    --back_filter: 0px;
-    --back_filter_color: #000000;
+    --text_bg_color: #00000040;
+    --item_bg_color: #00000038;
+    --item_hover_color: #33333338;
+    --item_left_title_color: #ffffff;
+    --item_left_text_color: #ffffff;
+    --footer_text_color: #ffffff;
+    --left_tag_item: rgb(27 42 57 / 20%);
+    --card_filter: 15px;
     --fill:#ffffff;
 }
 
